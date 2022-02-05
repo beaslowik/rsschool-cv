@@ -1,7 +1,7 @@
 # Beata Słowik
 ## Contact
-* Email: beslowik@gmail.com
-* Messenger: https://www.facebook.com/beata.slowik
+* Email: [beslowik@gmail.com](mailto:beslowik@gmail.com)
+* Messenger: [Beata Słowik](https://www.facebook.com/beata.slowik)
 
 ## Summary
 My goal is to become a frontend developer and some day a frontend teacher. I find fullfuling when I can help somebody to develop him or herself.
@@ -20,7 +20,7 @@ My goal is to become a frontend developer and some day a frontend teacher. I fin
 No commercial experience as a frontend developer. More than 10 years experience as a EU fund specialist.
 
 ## Education
-Jagiellonian University Masters Degree in Pollitical Sciences.
+Jagiellonian University Masters Degree in Political Sciences.
 
 ## English
 Level B2
