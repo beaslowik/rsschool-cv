@@ -1,2 +1,2 @@
- https://beaslowik.github.io/rsschool-cv/cv 
+ https://beaslowik.github.io/rsschool-cv/
  
