@@ -46,8 +46,5 @@ No commercial experience as a frontend developer. More than 10 years experience 
 Jagiellonian University Masters Degree in Political Sciences.
 
 ## Languages
-|Language | Level        |
-|---------|--------------|
-|Polish   |native sepaker|
-|English   |B2           |
-|Italian   |A1           |
+* Polish - native speaker
+* English - B2
