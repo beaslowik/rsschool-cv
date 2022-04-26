@@ -12,17 +12,21 @@ body {
     color: white;
     font-size: 1.4rem;
     font-family: 'Lato', sans-serif;
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 2rem;
-    padding-top: 4vw;
+    font-size: 3rem;
+    padding: 2vh 0;
 }
 
+section {
+    padding: 2vh 0;
+}
 
 a {
     color: #d1bd40;
@@ -33,33 +37,44 @@ a:hover {
     color: #f34213;
 }
 
+b {
+    color: #f34213;
+}
+
+
 ul {
     list-style: none;
 }
 
 pre {
-    background-color: hsla(0, 0%, 0%, 0.596);
-    /* overflow: scroll; */
-}
-
-code {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
     font-family: 'Source Code Pro', monospace;
-    font-size: 0.8rem;
-
+    font-size: 1rem;
 }
 
-/* GRID */
-body {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 1100px) {
+    pre {
+        overflow-x: scroll;
+    }
 }
 
-/* SECTIONS  */
 main {
     width: 80vw;
     margin: auto;
 }
 
+.list li::before {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: #d1bd40;
+    margin-right: 1.4rem;
+    position: relative;
+    top: -4px;
+}
 
 /* HAEDER */
 header {
@@ -94,8 +109,32 @@ header ul li {
     margin-right: 3vw;
 }
 
+.divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.596);
+    margin: 4rem 0 2rem 0;
+
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        font-size: 2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about img {
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+}
+
 /* FOOTER */
 footer {
+    margin-top: 4vh;
     -webkit-box-shadow: 0px -18px 36px -16px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px -18px 36px -16px rgba(0, 0, 0, 1);
     box-shadow: 0px -18px 36px -16px rgba(0, 0, 0, 1);
@@ -116,4 +155,22 @@ footer li {
 
 footer img {
     background-color: white;
+}
+
+/* ARROW */
+.arrow {
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+    font-size: 3.5rem;
+    color: #d1be40b9;
+    --fa-animation-duration: 2s;
+    --fa-fade-opacity: 0.6;
+}
+
+.fa-spin-hover:hover {
+    -webkit-animation: fa-shake 2s infinite linear;
+    -moz-animation: fa-shake 2s infinite linear;
+    -o-animation: fa-shake 2s infinite linear;
+    animation: fa-shake 2s infinite linear;
 }
